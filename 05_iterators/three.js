@@ -27,15 +27,21 @@ map.set('USA','United State Of America')
 map.set('FR','France')
 
 for (const [key,value] of map) {
-    // console.log(key,'->',value)
+    // console.log(key,'->',value)             for of loop for map
 }
 
-const myObject = {
-    game1: 'NFS',
-    game2: 'spiderman'
-}
-
-for (const [key,value] of myObject) {
-    console.log(key,'->',value);
+for (const key in map) {
+    
+    console.log(key)        // for in loop for map
     
 }
+
+// const myObject = {
+//     game1: 'NFS',
+//     game2: 'spiderman'
+// }
+
+// for (const [key,value] of myObject) {
+//     // console.log(key,'->',value);
+    
+// }
